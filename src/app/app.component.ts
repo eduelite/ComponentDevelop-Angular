@@ -8,10 +8,21 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'component-angular';
 
+  componentData = {
+    dataContent: {
+      question: `this is the question?`,
+      answer: `good`
+    },
+    componentAttribute:{
+
+    },
+    userData:{
+
+    }
+  }
   dataSchema={
 
-    question: `this is the question?`,
-    answer: `good`
+
 
   }
 
