@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'component-angular';
+
+  dataSchema={
+
+    question: `this is the question?`,
+    answer: `good`
+
+  }
+
+
+
 }
